@@ -1,0 +1,11 @@
+# data files (download these separately)
+*.txt
+!requirements.txt
+data/
+
+# model checkpoints
+*.pt
+
+# Python / notebook clutter
+__pycache__/
+.ipynb_checkpoints/
