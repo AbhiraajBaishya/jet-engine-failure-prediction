@@ -56,16 +56,6 @@ Raising the threshold from 30 to 40 cycles catches 3 more at-risk engines (80% r
 - Only 100 test engines (25 at risk), so metrics such as recall have considerable uncertainty; the alert threshold was compared on the same test set and should be confirmed on fresh data.
 - Not a certified maintenance tool. This is a learning project.
 
-## How to run
-
-```bash
-git clone [your-repo-url]
-cd [your-repo-folder]
-pip install -r requirements.txt
-python jet_engine_rul.py
-```
-
-This prints validation and test metrics and writes `results.json`, `sensors_over_time.png` and `pred_vs_true.png`.
 
 ## Tech
 
